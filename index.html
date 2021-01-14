@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Class 1 Lab</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+        <h1>Class 1 Lab</h1>
+
+        <p style="color: yellow; background-color: green">
+            What should I call you?
+        </p>
+
+        <p style="color: black; background-color: white">
+            Where do you from?
+        </p>
+
+        <p style="color: blue; background-color: blueviolet">
+            What is your favorite time of day?
+        </p>
+
+        <p style="color: red; background-color: purple">
+            What is best skill?
+        </p>
+    </main>
+
+    <footer>
+        &copy;2021 codefellows
+    </footer>
+    <script>
+        // use 4 js prompts - ask 4 questions 
+        // different variable for each response
+
+        var username = prompt('What should I call you?');
+        alert('Hello, ' + username + '. Glad to meet you!');
+        console.log('the user\'s name is: ' + username);
+
+        var homeLocation = prompt('Where are you from?');
+        alert('That\'s is great, ' + username + '.  ' + homeLocation + ' is a great place to call home!');
+        console.log('the user\'s home is: ' + homeLocation);
+
+        var timeOfDay = prompt('What is your favorite time of day?');
+        alert('Perfect, ' + username + '.  ' + timeOfDay + ' is the right time!');
+        console.log('the user\'s favorite time is: ' + timeOfDay);
+
+        var gotSkillz = prompt('What is your best skill?')
+        alert('Awesome, ' + username + '. ' + gotSkillz + ' is a great skill to have!');
+        console.log('Awesome, ' + username + '! Your second, third, and fourth variables are ' + homeLocation + ', ' + timeOfDay + ', and ' + gotSkillz);
+    </script>
+</body>
+
+</html>
